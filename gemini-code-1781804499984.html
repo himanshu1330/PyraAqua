@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyraAqua | CleanTech UAE 2026</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandDark: '#0B131F',
+                        brandCard: '#131F33',
+                        brandCyan: '#06B6D4',
+                        brandGreen: '#10B981',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-brandDark text-slate-100 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-brandDark/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-gradient-to-r from-brandCyan to-brandGreen p-2 rounded-lg text-brandDark font-bold text-xl">
+                    <i class="fa-solid fa-droplet-solar"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-black tracking-wider text-white">PYRA<span class="text-brandCyan">AQUA</span></span>
+                    <p class="text-xs text-slate-400 tracking-widest uppercase">CleanTech UAE 2026</p>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wide">
+                <a href="#problem" class="hover:text-brandCyan transition-colors">The Crisis</a>
+                <a href="#technology" class="hover:text-brandCyan transition-colors">Technology</a>
+                <a href="#market" class="hover:text-brandCyan transition-colors">Market Opportunity</a>
+                <a href="#economics" class="hover:text-brandCyan transition-colors">Economics</a>
+                <a href="#roadmap" class="hover:text-brandCyan transition-colors">Roadmap</a>
+            </div>
+            <div>
+                <a href="#contact" class="bg-gradient-to-r from-brandCyan to-brandGreen text-brandDark font-bold px-5 py-2.5 rounded-lg shadow-lg hover:brightness-110 transition-all text-sm">
+                    Connect With Us
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative py-24 lg:py-32 overflow-hidden border-b border-slate-800">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(6,182,212,0.12),transparent_45%)]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <span class="inline-flex items-center gap-1.5 py-1 px-3 rounded-full text-xs font-semibold bg-brandCyan/10 text-brandCyan border border-brandCyan/20 mb-6">
+                    <span class="size-1.5 rounded-full bg-brandCyan animate-pulse"></span> Dual-Output Pyrolysis System
+                </span>
+                <h1 class="text-4xl sm:text-6xl font-black text-white tracking-tight leading-none mb-6">
+                    Water & Fuel from <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-brandCyan to-brandGreen">Plastic Waste</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-300 leading-relaxed mb-10">
+                    Capturing high-grade diesel-equivalent fuel and purified water from plastic waste, engineered specifically for the UAE's off-grid and ESG-critical sectors.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#technology" class="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-semibold px-6 py-3 rounded-lg transition-all text-base">
+                        Explore the Science
+                    </a>
+                    <a href="#contact" class="bg-gradient-to-r from-brandCyan to-brandGreen text-brandDark font-bold px-6 py-3 rounded-lg hover:brightness-110 transition-all text-base shadow-lg shadow-brandCyan/10">
+                        View the Ask
+                    </a>
+                </div>
+            </div>
+
+            <!-- Market Highlight Widgets -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-20 border-t border-slate-800 pt-12">
+                <div class="bg-brandCard/40 p-6 rounded-xl border border-slate-800">
+                    <p class="text-sm text-slate-400 font-medium">UAE Plastic Waste Mgmt Market</p>
+                    <p class="text-3xl font-black text-white mt-1">$957M <span class="text-xs text-slate-500 font-normal">(2024)</span></p>
+                </div>
+                <div class="bg-brandCard/40 p-6 rounded-xl border border-slate-800">
+                    <p class="text-sm text-slate-400 font-medium">Global PTF Market CAGR</p>
+                    <p class="text-3xl font-black text-brandCyan mt-1">14.9% <span class="text-xs text-slate-500 font-normal">to 2030</span></p>
+                </div>
+                <div class="bg-brandCard/40 p-6 rounded-xl border border-slate-800">
+                    <p class="text-sm text-slate-400 font-medium">UAE Water Security Goal</p>
+                    <p class="text-3xl font-black text-brandGreen mt-1">AED 74B <span class="text-xs text-slate-500 font-normal">Saved by 2036</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- The Dual Crisis Section -->
+    <section id="problem" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-xs uppercase tracking-widest text-brandCyan font-bold mb-3">The Macro Threat</h2>
+            <p class="text-3xl sm:text-4xl font-black text-white">The Dual Crisis the UAE Cannot Ignore</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Crisis 1 -->
+            <div class="bg-brandCard p-8 rounded-2xl border border-slate-800 relative overflow-hidden group hover:border-slate-700 transition-all">
+                <div class="absolute top-0 right-0 p-6 text-slate-800 text-7xl font-black select-none group-hover:text-slate-700/50 transition-colors">01</div>
+                <div class="text-brandCyan text-3xl mb-4"><i class="fa-solid fa-dumpster animate-bounce"></i></div>
+                <h3 class="text-xl font-bold text-white mb-4">Plastic Waste</h3>
+                <div class="space-y-4">
+                    <div class="border-b border-slate-800 pb-3">
+                        <span class="text-2xl font-extrabold text-white">11%</span>
+                        <p class="text-sm text-slate-400">of UAE plastic waste is currently recycled</p>
+                    </div>
+                    <div>
+                        <span class="text-2xl font-extrabold text-white">62.96%</span>
+                        <p class="text-sm text-slate-400">still ends up in landfills as of late tracking</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Crisis 2 -->
+            <div class="bg-brandCard p-8 rounded-2xl border border-slate-800 relative overflow-hidden group hover:border-slate-700 transition-all">
+                <div class="absolute top-0 right-0 p-6 text-slate-800 text-7xl font-black select-none group-hover:text-slate-700/50 transition-colors">02</div>
+                <div class="text-brandGreen text-3xl mb-4"><i class="fa-solid fa-droplet"></i></div>
+                <h3 class="text-xl font-bold text-white mb-4">Water Scarcity</h3>
+                <div class="space-y-4">
+                    <div class="border-b border-slate-800 pb-3">
+                        <span class="text-2xl font-extrabold text-white">42%</span>
+                        <p class="text-sm text-slate-400">of UAE drinking water originates from energy-heavy desalination</p>
+                    </div>
+                    <div>
+                        <span class="text-2xl font-extrabold text-white">Zero</span>
+                        <p class="text-sm text-slate-400">permanent natural freshwater sources nationally</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Competitive Callout -->
+        <div class="mt-8 bg-gradient-to-r from-brandCyan/10 to-brandGreen/10 p-6 rounded-xl border border-brandCyan/20 text-center">
+            <p class="text-sm sm:text-base text-slate-300">
+                <strong class="text-white">The Competitive Gap:</strong> Incumbents like Tadweer & Bee'ah are deploying municipal pyrolysis but discard the water byproduct. 
+                <span class="text-brandCyan font-semibold">PyraAqua monetizes what they waste.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- The Solution / Process Map -->
+    <section id="technology" class="py-20 bg-brandCard/30 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-brandGreen font-bold mb-3">One Process. Two Critical Outputs.</h2>
+                <p class="text-3xl sm:text-4xl font-black text-white">The PyraAqua Architecture</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+                <!-- Step 1 -->
+                <div class="bg-brandCard p-6 rounded-xl border border-slate-800">
+                    <div class="text-xs font-bold text-brandCyan uppercase mb-2">Step 01</div>
+                    <h4 class="text-lg font-bold text-white mb-2">Plastic Feedstock</h4>
+                    <p class="text-sm text-slate-400">Pre-sorted, PVC-free inputs including HDPE, LDPE, PET, and PP.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="bg-brandCard p-6 rounded-xl border border-slate-800">
+                    <div class="text-xs font-bold text-brandCyan uppercase mb-2">Step 02</div>
+                    <h4 class="text-lg font-bold text-white mb-2">Pyrolysis Reactor</h4>
+                    <p class="text-sm text-slate-400">Operates at 400–700°C in an oxygen-free, hermetically sealed vessel.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="bg-brandCard p-6 rounded-xl border border-slate-800">
+                    <div class="text-xs font-bold text-brandCyan uppercase mb-2">Step 03</div>
+                    <h4 class="text-lg font-bold text-white mb-2">Condenser & Separator</h4>
+                    <p class="text-sm text-slate-400">Steel & glass mechanical design ensuring zero ongoing plastic contact.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="bg-brandCard p-6 rounded-xl border border-brandGreen/40 shadow-lg shadow-brandGreen/5">
+                    <div class="text-xs font-bold text-brandGreen uppercase mb-2">Step 04</div>
+                    <h4 class="text-lg font-bold text-white mb-2">Triple Manifestation</h4>
+                    <p class="text-sm text-slate-400">Refined Fuel, Purified Water, and commercial-grade Carbon Black.</p>
+                </div>
+            </div>
+
+            <!-- Novel Science Deep-dive -->
+            <div class="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 bg-brandCard p-8 rounded-2xl border border-slate-800">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4"><i class="fa-solid fa-flask text-brandCyan mr-2"></i>Proven Reactions, Novel Application</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                        By utilizing the oxygen molecules natively built into PET chemical structures, our system drives synthetic water formation via regulated thermochemistry.
+                    </p>
+                    <div class="space-y-3 font-mono text-xs text-brandCyan bg-slate-950 p-4 rounded-lg">
+                        <div>// HDPE Cracking Yields Diesel Alkanes</div>
+                        <div class="text-white">(-CH₂-CH₂-)ₙ &rarr; CₙH₂ₙ + CₙH₂ₙ₊₂</div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center border-t lg:border-t-0 lg:border-l border-slate-800 pt-6 lg:pt-0 lg:pl-8">
+                    <h4 class="text-sm font-bold uppercase tracking-wide text-brandGreen mb-3">Moringa-Powered Purification</h4>
+                    <p class="text-sm text-slate-300">
+                        Instead of toxic industrial coagulants, PyraAqua relies on locally grown <em class="text-white">Moringa oleifera</em> seed extracts to achieve <strong>98.5% microplastic removal</strong>, followed by RO and UV polishing for optimal circular reuse.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Opportunity -->
+    <section id="market" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-xs uppercase tracking-widest text-brandCyan font-bold mb-3">TAM &rarr; SAM &rarr; SOM</h2>
+            <p class="text-3xl sm:text-4xl font-black text-white">Capturing an Untapped Market Pipeline</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+            <div class="border border-slate-800 p-6 rounded-xl flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-bold text-slate-500 uppercase">Total Addressable Market</span>
+                    <h4 class="text-3xl font-black text-white mt-1">$3.1B</h4>
+                    <p class="text-sm text-slate-400 mt-4">Combined global plastic-to-fuel and MENA water innovation scope.</p>
+                </div>
+            </div>
+            <div class="border border-slate-800 p-6 rounded-xl flex flex-col justify-between bg-brandCard/40">
+                <div>
+                    <span class="text-xs font-bold text-brandCyan uppercase">Serviceable Addressable Market</span>
+                    <h4 class="text-3xl font-black text-white mt-1">$285M</h4>
+                    <p class="text-sm text-slate-400 mt-4">Immediate UAE pyrolysis market segment share plus localized water innovation procurement pipelines.</p>
+                </div>
+            </div>
+            <div class="border-2 border-brandGreen p-6 rounded-xl flex flex-col justify-between bg-brandGreen/5 relative">
+                <span class="absolute -top-3 right-4 bg-brandGreen text-brandDark font-bold text-[10px] px-2 py-0.5 rounded uppercase tracking-widest">Beachhead</span>
+                <div>
+                    <span class="text-xs font-bold text-brandGreen uppercase">Serviceable Obtainable Market</span>
+                    <h4 class="text-3xl font-black text-white mt-1">$18M</h4>
+                    <p class="text-sm text-slate-300 mt-4">Years 1–3 capturing 5 secure off-grid modular sites across free zones, labor camps, and desert agricultural hubs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Model & Unit Economics -->
+    <section id="economics" class="py-20 bg-brandCard/30 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5">
+                    <span class="text-xs font-bold uppercase text-brandCyan tracking-widest">Highly Profitable Monitization</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-white mt-2">Revenue From Every Single Kilo</h2>
+                    <p class="text-slate-400 text-sm sm:text-base mt-4 leading-relaxed">
+                        Our units generate highly predictable revenue streams directly on-site, shifting environmental liabilities into strict commercial assets with a projected payback timeline of 2.5 to 4 years.
+                    </p>
+                    <div class="mt-6 p-4 rounded-xl bg-slate-950 border border-slate-800">
+                        <div class="flex justify-between text-xs text-slate-400 mb-1">
+                            <span>Operating Cost / Tonne</span>
+                            <span>Net Profit / Tonne</span>
+                        </div>
+                        <div class="flex justify-between font-bold text-sm text-white">
+                            <span class="text-red-400">AED 660 - 1,540</span>
+                            <span class="text-brandGreen">AED 1,200 - 3,800</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 bg-brandCard rounded-2xl border border-slate-800 overflow-hidden">
+                    <div class="p-6 bg-slate-900 border-b border-slate-800">
+                        <h4 class="font-bold text-white text-sm uppercase tracking-wider">Per-Tonne Unit Economics (1,000 kg Input)</h4>
+                    </div>
+                    <div class="divide-y divide-slate-800 text-sm">
+                        <div class="p-4 flex justify-between items-center">
+                            <div>
+                                <span class="font-semibold text-white block">Refined Pyrolysis Fuel</span>
+                                <span class="text-xs text-slate-400">550-650 L/tonne &middot; Diesel alternative</span>
+                            </div>
+                            <span class="font-mono text-brandCyan font-bold">AED 522 - 715</span>
+                        </div>
+                        <div class="p-4 flex justify-between items-center">
+                            <div>
+                                <span class="font-semibold text-white block">Purified Water Recovery</span>
+                                <span class="text-xs text-slate-400">80-120 L/tonne &middot; Moringa & RO processed</span>
+                            </div>
+                            <span class="font-mono text-brandCyan font-bold">AED 16 - 48</span>
+                        </div>
+                        <div class="p-4 flex justify-between items-center">
+                            <div>
+                                <span class="font-semibold text-white block">Purified Carbon Black</span>
+                                <span class="text-xs text-slate-400">50-80 kg/tonne &middot; Rubber market grade</span>
+                            </div>
+                            <span class="font-mono text-brandCyan font-bold">AED 2,000 - 4,000</span>
+                        </div>
+                        <div class="p-4 flex justify-between items-center">
+                            <div>
+                                <span class="font-semibold text-white block">ESG / Carbon Offsets</span>
+                                <span class="text-xs text-slate-400">Direct land-fill diversion credit value</span>
+                            </div>
+                            <span class="font-mono text-brandCyan font-bold">AED 200 - 600</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Roadmap -->
+    <section id="roadmap" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-xs uppercase tracking-widest text-brandGreen font-bold mb-3">Execution Path</h2>
+            <p class="text-3xl sm:text-4xl font-black text-white">Development Roadmap</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Phase 1 -->
+            <div class="bg-brandCard/60 border border-slate-800 rounded-xl p-6 relative">
+                <div class="text-brandCyan font-bold text-xs uppercase tracking-wider mb-2">Phase 01</div>
+                <h4 class="text-lg font-bold text-white mb-4">Prove Tech (Q3 2026 - Q2 2027)</h4>
+                <ul class="space-y-2.5 text-xs text-slate-400">
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-circle-check text-brandCyan mt-0.5"></i> Pilot reactor activation at Masdar/KIZAD</li>
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-circle-check text-brandCyan mt-0.5"></i> Output validation & non-potable verification</li>
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-circle-check text-brandCyan mt-0.5"></i> Provisional IP structural filings</li>
+                </ul>
+            </div>
+            <!-- Phase 2 -->
+            <div class="bg-brandCard/60 border border-slate-800 rounded-xl p-6 relative">
+                <div class="text-brandCyan font-bold text-xs uppercase tracking-wider mb-2">Phase 02</div>
+                <h4 class="text-lg font-bold text-white mb-4">Prove Model (Q3 2027 - Q2 2028)</h4>
+                <ul class="space-y-2.5 text-xs text-slate-400">
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-slate-700 mt-0.5"></i> Establish 2 binding B2B framework agreements</li>
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-slate-700 mt-0.5"></i> Lock down target seed round acceleration</li>
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-slate-700 mt-0.5"></i> Refine dynamic economics with real-world data</li>
+                </ul>
+            </div>
+            <!-- Phase 3 -->
+            <div class="bg-brandCard/60 border border-brandGreen/30 rounded-xl p-6 relative">
+                <div class="text-brandGreen font-bold text-xs uppercase tracking-wider mb-2">Phase 03</div>
+                <h4 class="text-lg font-bold text-white mb-4">Scale Network (2028 - 2030)</h4>
+                <ul class="space-y-2.5 text-xs text-slate-300">
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-arrow-up-right-dots text-brandGreen mt-0.5"></i> Scale architecture into 5 functioning UAE sites</li>
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-arrow-up-right-dots text-brandGreen mt-0.5"></i> Broaden regional focus into Saudi & Oman</li>
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-arrow-up-right-dots text-brandGreen mt-0.5"></i> Gain secondary certified potable water marks</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Ask / Capital Allocation -->
+    <section id="contact" class="py-20 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="text-xs font-bold tracking-widest text-brandCyan uppercase bg-brandCyan/10 px-3 py-1 rounded-full border border-brandCyan/20">Funding Deployment</span>
+            <h2 class="text-3xl sm:text-5xl font-black text-white mt-4 mb-6">The Seed Ask: AED 4.2M</h2>
+            <p class="text-slate-400 text-sm sm:text-base max-w-2xl mx-auto mb-12">
+                Accelerating structural manufacturing setup to construct and anchor the UAE's first localized, dual-output plastic-to-fuel and pure-water deployment pilot loop.
+            </p>
+
+            <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 text-left mb-16">
+                <div class="bg-brandCard p-4 rounded-lg border border-slate-800">
+                    <span class="text-xs text-slate-400 font-medium block">Reactor & Setup</span>
+                    <span class="font-mono font-bold text-white text-sm">AED 1.5M</span>
+                </div>
+                <div class="bg-brandCard p-4 rounded-lg border border-slate-800">
+                    <span class="text-xs text-slate-400 font-medium block">Water System</span>
+                    <span class="font-mono font-bold text-white text-sm">AED 900K</span>
+                </div>
+                <div class="bg-brandCard p-4 rounded-lg border border-slate-800">
+                    <span class="text-xs text-slate-400 font-medium block">Solar Power</span>
+                    <span class="font-mono font-bold text-white text-sm">AED 750K</span>
+                </div>
+                <div class="bg-brandCard p-4 rounded-lg border border-slate-800">
+                    <span class="text-xs text-slate-400 font-medium block">IP & Approvals</span>
+                    <span class="font-mono font-bold text-white text-sm">AED 550K</span>
+                </div>
+                <div class="bg-brandCard p-4 rounded-lg border border-slate-800 col-span-2 sm:col-span-1">
+                    <span class="text-xs text-slate-400 font-medium block">6-Mo Capital</span>
+                    <span class="font-mono font-bold text-white text-sm">AED 500K</span>
+                </div>
+            </div>
+
+            <!-- Founder Connect Card -->
+            <div class="bg-gradient-to-br from-brandCard to-slate-900 border border-slate-800 p-8 rounded-2xl max-w-xl mx-auto">
+                <p class="text-xs uppercase tracking-widest text-slate-400 font-semibold mb-2">Project Visionary</p>
+                <h3 class="text-xl font-bold text-white mb-6">Himanshu Singh</h3>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center font-mono text-sm">
+                    <a href="mailto:himanshu.singh51@s.amity.edu" class="flex items-center gap-2 text-brandCyan hover:underline">
+                        <i class="fa-solid fa-envelope"></i> himanshu.singh51@s.amity.edu
+                    </a>
+                    <span class="hidden sm:inline text-slate-700">|</span>
+                    <a href="tel:+9198214664497" class="flex items-center gap-2 text-brandGreen hover:underline">
+                        <i class="fa-solid fa-phone"></i> (+91) 9821-4664-497
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brandDark py-8 border-t border-slate-900 text-center text-xs text-slate-600">
+        <p>&copy; 2026 PyraAqua. Confidential Investor Presentation Deck Complement.</p>
+    </footer>
+
+</body>
+</html>
